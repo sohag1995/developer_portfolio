@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+/* banner section start */
+#banner {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.banner_text {
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.banner_text h1 {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+.banner_text h5 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.742);
+
+}
+
+.banner_text p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    color: rgba(61, 56, 56, 0.748);
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.banner_text a {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: rgba(245, 238, 238, 0.846);
+    padding: 15px 30px;
+    background-image: linear-gradient(to right, rgba(255, 99, 71, 0.76), tomato);
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+span {
+    color: orange;
+}
+
+.banner_image {
+    width: 50%;
+}
+/* banner section end */
+
+
+/* dream section start */
+#dream {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* dream section end */
+
+/* experience section start */
+
+#experiences {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.head h1{
+   padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    
+
+    
+}
+ .half_width {
+
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    border-left: 7px solid tomato;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.half_width h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.half_width h4 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-style: normal;
+    color: orange;
+}
+
+.half_width p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-style: normal;
+    color: rgba(65, 61, 61, 0.85);
+    word-spacing: 2px;
+    line-height: 25px;
+
+}
+.blue{
+    border-left: 7px solid rgb(58, 6, 156);
+}
+/* experience section start */
+
+
+/* footer section start */
+footer h4 {
+    color: gray;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+/* footer section end */
